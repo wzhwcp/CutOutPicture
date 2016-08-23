@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wcp.cutoutpicture.view.CutOutLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cutout_layout"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/show_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/beautiful"/>
+
+    <com.wcp.cutoutpicture.view.MasklayerCircleView
+        android:id="@+id/mask_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:bigCircleColor="@android:color/holo_green_dark"
+        custom:smallCircleColor="@android:color/holo_green_dark"
+        custom:dottedLineColor="@android:color/holo_green_dark"
+        custom:outPutShape = "0"
+        custom:centerX="240"
+        custom:centerY="360"
+        custom:bigCircleRadius="240" />
+</com.wcp.cutoutpicture.view.CutOutLayout>
