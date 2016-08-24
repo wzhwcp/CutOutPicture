@@ -17,5 +17,13 @@
         <attr name="bigCircleMinRadius" format="float"/>
         <attr name="bigCircleMaxRadius" format="float"/>
 
-![][wcp](https://github.com/wzhwcp/CutOutPicture/device-2016-08-23-180828.gif)
+![][rect]
+
+[rect]:https://github.com/wzhwcp/CutOutPicture/blob/master/CutOutPicture/device-2016-08-23-180828.gif\
+
+![][circle]
+
+[circle]:https://github.com/wzhwcp/CutOutPicture/blob/master/CutOutPicture/device-2016-08-23-181241.gif
+
+
 
