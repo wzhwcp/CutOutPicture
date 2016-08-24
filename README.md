@@ -2,7 +2,6 @@
 
 对图片进行截取，可以选择截取圆或矩形
 
-///java
         <!--截图圆原点-->
         <attr name="centerX" format="float"/>
         <attr name="centerY" format="float"/>
@@ -17,4 +16,4 @@
         <!--大圆半径的范围-->
         <attr name="bigCircleMinRadius" format="float"/>
         <attr name="bigCircleMaxRadius" format="float"/>
-        ///
+
